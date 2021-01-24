@@ -2,8 +2,8 @@
     "id": "",
     "nombre": "Nombre",
     "genero": "Masculino",
-    "fechaNacimiento": "yyyy-MM-dd",
+    "fechaNacimiento": "2000-08-11",
     "cdNacimiento": "Ciudad",
     "biografia": "Texto de la biografia",
-    "web": "url"
+    "web": "urlweb"
 }

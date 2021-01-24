@@ -2,13 +2,13 @@
     "id": "",
     "nombre": "Nombre cancion",
     "compositor": "Nombre banda/artista",
-    "fechaLanzamiento": "yyyy-MM-dd",
+    "fechaLanzamiento": "1999-01-31",
     "duracion": 300,
     "observaciones": "Texto observacion",
     "invitados": ["Nombre 1", "Nombre 2"],
     "tablatura_url": "url",
     "tablatura_compositor": "Nombre",
-    "tablatura_fecha": "yyyy-MM-dd",
+    "tablatura_fecha": "1999-01-31",
     "tablatura_traductor": "Nombre",
     "tablatura_email": "email"
 }
