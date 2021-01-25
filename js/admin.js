@@ -134,7 +134,7 @@ function deleteUser(index, name_user) {
     var nodo = document.createTextNode(title.toUpperCase());
     pos.appendChild(nodo);
     var btn_delete = document.getElementById("dodelete");
-    btn_delete.setAttribute('onclick', 'commitDeleteUser('+index+')');
+    btn_delete.setAttribute('onclick', 'commitDeleteUser("'+index+'")');
     $("#deleteModal").modal();
 }
 
