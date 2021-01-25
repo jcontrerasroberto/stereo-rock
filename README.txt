@@ -1,7 +1,5 @@
 FALTA (ROBERT):
 +Estilo
-Editar adminpanel
-Editar usuario
 
 
 AGREGADOS:
