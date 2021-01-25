@@ -230,3 +230,40 @@ function llenarMusico(){
 }
 
 
+function llenarRegistro(){
+    //Obtener informacion del musico
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const key = urlParams.get('key');
+    console.log(key);
+
+    var elem = {
+        "id": key,
+    };
+
+    var mostrar = JSON.stringify(elem);
+    console.log(mostrar);
+
+    //PETICION AJAX
+
+    $.ajax({
+        url: '../test/user.json', //Cambiar
+        type: 'get',
+        dataType: 'json',
+        contentType: 'application/json',
+        success: function (resp) {
+            document.getElementById("id").setAttribute("value", resp.id);
+            document.getElementById("name").setAttribute("value", resp.nombre);
+            document.getElementById("last_name").setAttribute("value", resp.apellido);
+            document.getElementById("username").setAttribute("value", resp.username);
+            document.getElementById("email").setAttribute("value", resp.email);
+            if(resp.rol=="admin")
+                document.getElementById('admin').checked = true;
+            else
+                document.getElementById('locutor').checked = true;
+        },
+        data: mostrar
+    });
+    
+}
+
