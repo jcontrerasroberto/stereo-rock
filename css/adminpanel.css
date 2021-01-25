@@ -86,3 +86,38 @@ header {
 a {
 	color: black;
 }
+
+.title{
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.opciones{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: row;
+	text-align: center;
+}
+
+.opcion{
+	width: 200px;
+	height: 200px;
+	background-color: white;
+	border-radius: 15px;
+	margin: 15px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+}
+
+.opcion a{
+	text-decoration: none;
+}
+
+.opcion p{
+	font-size: 28px;
+	color: black;
+}
